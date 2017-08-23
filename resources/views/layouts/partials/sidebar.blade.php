@@ -2,17 +2,17 @@
     <section class="sidebar">
         <div class="user-panel">
             <div class="pull-left image no-padding">
-                <img src=" {{ asset('/img/xby-logo.png') }} " class="img-circle">
+                <img src=" {{ asset('/img/xby-logo.png') }} ">
             </div>
 
             <div class="center-block info" style="position:initial;padding-left: 40px;">
                 <p class="no-margin text-center" style="color: white;font-size: 1.1em;">PoSIGN Secured</p>
 
                 <div class="center-block info text-center">
-                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " class="img-circle">
-                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " class="img-circle">
-                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " class="img-circle">
-                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " class="img-circle">
+                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " >
+                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " >
+                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " >
+                    <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " >
                 </div>
             </div>
         </div>
@@ -36,9 +36,7 @@
             <li><a href="{{route('roles.index')}}"><i class="fa fa-tasks"></i> <span>{{ trans('layout-partials.Roles') }}</span></a></li>
             @endcan
 
-            @can('view_prediction')
-                <li><a href="{{route('xby_prediction')}}"><i class="fa fa-line-chart"></i> <span>{{ trans('layout-partials.Predictions') }}</span></a></li>
-            @endcan
+            <li><a href="{{route('xby_prediction')}}"><i class="fa fa-line-chart"></i> <span>{{ trans('layout-partials.Predictions') }}</span></a></li>
 
             <li><a href="/documentation"><i class="fa fa-book"></i><span>{{ trans('layout-partials.Documentation') }}</span></a></li>
 <!--

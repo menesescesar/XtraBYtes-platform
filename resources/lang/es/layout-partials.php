@@ -13,4 +13,5 @@ return array (
   'Users' => 'Users',
   'Roles' => 'Roles',
   'Documentation' => 'Documentation',
+  'You can also support the development by donating to our platform developers' => 'You can also support the development by donating to our platform developers',
 );

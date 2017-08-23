@@ -3,17 +3,21 @@
         Contribute to Xtrabytes Community <i id="infoBtn" class="fa fa-info-circle"></i>
     </div>
 
-    <strong> Xtrabytes Community <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " class="img-circle"></strong>
+    <strong> Xtrabytes Community <img width="25px" src=" {{ asset('/img/xby-logo.png') }} " ></strong>
 
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
-        <div class="modal-content">
+        <div class="modal-content" style="height: 350px;">
             <span class="close-modal">&times;</span>
             <img src=" {{ asset('/img/xby-info.png') }} " width="300px" >
             <div class="col-md-10 col-md-offset-1">
                 <p>{{trans('layout-partials.To support the development donate on our community fund, we always appreciate donations to our XBY address')}}:</p>
-                <p><b>BLocksFEE4ProofofSignatureXXYF3VQ3</b></p>
+                <p>XBY:<b>BLocksFEE4ProofofSignatureXXYF3VQ3</b></p>
+            </div>
+            <div class="col-md-10 col-md-offset-1">
+                <p>{{trans('layout-partials.You can also support the development by donating to our platform developers')}}:</p>
+                <p>XBY:<b>B5JZ8d7QthfxKKPADhBcRrhwep9PrnsD4H</b></p>
             </div>
         </div>
     </div>

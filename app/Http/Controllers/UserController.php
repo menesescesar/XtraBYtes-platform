@@ -229,7 +229,7 @@ class UserController extends Controller
             $img->storeAs('users/'.$user->id.'/images/',$image_name);
 
             //delete old img
-            if(Storage::exists('users/'.$user->id.'/images/'.$user->img))
+            if($user->img!=null && Storage::exists('users/'.$user->id.'/images/'.$user->img))
                 Storage::delete('users/'.$user->id.'/images/'.$user->img);
 
             $user->img = $image_name;

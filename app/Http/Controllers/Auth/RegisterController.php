@@ -45,7 +45,7 @@ class RegisterController extends Controller
 
         alert()->success('Success', 'Your account created. Activation link sent to email.')->autoclose(3000);
 
-        return redirect('/en/login');
+        return redirect('/login');
     }
 
     /**
@@ -101,6 +101,8 @@ class RegisterController extends Controller
             "user_id" => $user->id,
             "token" => $code
         ]);
+
+        //app('App\Http\Controllers\Auth\ActivationController')->activate($code);
 
         $this->sendEmail($user,$activation->token);
 

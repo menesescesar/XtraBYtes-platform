@@ -13,4 +13,5 @@ return array (
   'Users' => '사용자',
   'Roles' => '역할',
   'Documentation' => '선적 서류 비치',
+  'You can also support the development by donating to our platform developers' => 'You can also support the development by donating to our platform developers',
 );

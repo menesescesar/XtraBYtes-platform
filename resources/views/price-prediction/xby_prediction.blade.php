@@ -203,7 +203,7 @@
                         <p class="form-control-static">{{trans('prediction.with a total of')}}</p>
                     </div>
                     <div class="form-group input-group input-group-sm">
-                        <span class="input-group-addon" ><img width="15px" src=" {{ asset('/img/xby-logo.png') }} " class="img-circle"></span>
+                        <span class="input-group-addon" ><img width="15px" src=" {{ asset('/img/xby-logo.png') }} " ></span>
                         <input type="text" class="form-control" id="investment_num_tokens" placeholder="{{trans('prediction.number of tokens')}}">
                     </div>
                     <div class="form-group">

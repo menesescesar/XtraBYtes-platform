@@ -23,7 +23,7 @@
 
     <style>
         html, body {
-            background-color: #fff;
+            background-color: #313131;
             color: #636b6f;
             font-family: 'Raleway', sans-serif;
             font-weight: 100;
@@ -63,6 +63,19 @@
             width: 100%;
             height: 99%;
         }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #3ec1be;
+            border-color: #47e0dc;
+        }
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #30adaa;
+            border-color: #47e0dc;
+        }
+
+
     </style>
 </head>
 <body>

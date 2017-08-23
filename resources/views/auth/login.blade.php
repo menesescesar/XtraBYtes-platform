@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="page-content vertical-align-middle" style="background: rgba(40, 41, 41, 0.17);">
+            <div class="page-content vertical-align-middle" style="background: rgba(40, 41, 41, 0.47);">
                 <div class="panel-body">
                     <img class="center-block" style="height:250px;cursor: pointer;" src="{{ asset('img/xby-logo.png') }}" title="XtraBYtes" onclick="window.location='/';">
                 </div>
@@ -59,7 +59,7 @@
                                 </button>
 
                                 <a class="pull-right" href="{{route('register')}}">
-                                    <button type="submit" class="btn btn-primary">
+                                    <button type="button" class="btn btn-primary">
                                         {{trans('btns.register')}}
                                     </button>
                                 </a>

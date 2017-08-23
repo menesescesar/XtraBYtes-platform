@@ -17,4 +17,5 @@ return array (
   'ERROR_INPUT' => 'Error input',
   'Explorer' => 'Explorer',
   'To support the development donate on our community fund, we always appreciate donations to our XBY address' => 'To support the development donate on our community fund, we always appreciate donations to our XBY address',
+  'You can also support the development by donating to our platform developers' => 'You can also support the development by donating to our platform developers',
 );

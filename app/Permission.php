@@ -18,7 +18,6 @@ class Permission extends \Spatie\Permission\Models\Permission
             'edit_roles',
             'delete_roles',
 
-            'view_prediction',
             'edit_translations',
 
 

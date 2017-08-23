@@ -16,6 +16,34 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="/css/skins/_all-skins.min.css">
+    <style>
+        .skin-blue .main-header .logo{
+            background-color: #47e0dc;
+        }
+        .skin-blue .main-header .navbar {
+            background-color: #3ec1be;
+        }
+        .skin-blue .main-header li.user-header {
+            background-color: #3ec1be;
+        }
+        .box.box-primary {
+            border-top-color: #3ec1be;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #3ec1be;
+            border-color: #47e0dc;
+        }
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #30adaa;
+            border-color: #47e0dc;
+        }
+
+    </style>
+
+
     <link rel="stylesheet" href="/css/polaris.css">
     <link rel="stylesheet" href="/css/modal.css">
     <link href="/plugins/select2/select2.min.css" rel="stylesheet" />
